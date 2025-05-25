@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:8000/api/v1/heatwave";
+// const BACKEND_URL = "http://localhost:8000/api/v1/heatwave";
+const BACKEND_URL = "https://climate-hazard-analyzer.onrender.com/api/v1/heatwave";
 
 export async function fetchHeatwaveData(location, lat, lon, startYear, endYear) {
     const params = {
